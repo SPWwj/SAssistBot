@@ -1,0 +1,4 @@
+#Wed Jun 13 17:29:02 SGT 2018
+base.0=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
