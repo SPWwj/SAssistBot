@@ -4,7 +4,7 @@
             "outputFile": "/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.6.0.aar/ee6d471715f9719d9067053a0bf9cac6/res/values-he/values-he.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.6.0.aar/91115cbf42fb132b86deafc7269ef217/res/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

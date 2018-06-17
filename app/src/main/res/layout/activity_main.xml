@@ -300,13 +300,14 @@
                     android:layout_margin="2dp"
                     android:orientation="vertical"
                     android:background="@color/colorPinkRose"
+                    android:onClick="toAccMenu"
                     >
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_icon_weight_lefting"
+                        android:src="@drawable/ic_account_box_black_24dp"
                         android:tint="@color/colorWhite"
                         />
                     <TextView
@@ -315,8 +316,8 @@
                         android:padding="8dp"
                         android:layout_marginTop="30dp"
                         android:background="@color/colorPinkRoseDark"
-                        android:text="Weight Lifting"
-                        android:textSize="18sp"
+                        android:text="Account"
+                        android:textSize="15sp"
                         android:textAlignment="center"
                         android:textColor="@color/colorWhite"
                         />

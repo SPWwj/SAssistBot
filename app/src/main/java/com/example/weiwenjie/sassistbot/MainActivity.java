@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void toAccMenu(View view){
+        Intent intent = new Intent(MainActivity.this, AccMenu.class);
+        startActivity(intent);
+    }
 }
 

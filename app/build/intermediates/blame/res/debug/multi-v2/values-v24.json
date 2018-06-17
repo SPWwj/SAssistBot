@@ -4,7 +4,7 @@
             "outputFile": "/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1c587a135a2edcb6eba9917732d374e/res/values-v24/values-v24.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b7637d9e1f95aae78051d34565ba58f/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6eac90c342d7c1610bfa1ee03c81e42e/res/values-v24/values-v24.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/af423008b0be14b11539f8386668e6c9/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

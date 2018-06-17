@@ -4,24 +4,7 @@
             "outputFile": "/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b1c587a135a2edcb6eba9917732d374e/res/values-sq/values-sq.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,4718",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,4794"
-                    }
-                },
-                {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c4d3c9dcf16ce7c3643bf94437565168/res/values-sq/values-sq.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e644a6f577254c4b0ed54e9e1e48202c/res/values-sq/values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8222bd0ed27912d5b0d6812eb7b99e3f/res/values-sq/values.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0b7637d9e1f95aae78051d34565ba58f/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,4718",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,4794"
+                    }
+                },
+                {
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c536ba532d2d3e5b62ddfae4417658c1/res/values-sq/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5c42db55734058a85987829f608c894b/res/values-sq/values.xml",
+                    "source": "/Users/WeiWenJie/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/5aea096b013c501f59f587eca2ade64b/res/values-sq/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
