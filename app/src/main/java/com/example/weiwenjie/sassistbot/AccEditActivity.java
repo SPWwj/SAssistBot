@@ -49,9 +49,6 @@ public class AccEditActivity extends AppCompatActivity {
     Bitmap bmap;
     FirebaseAuth mAuth;
 
-    private AlertDialog alert = null;
-    private AlertDialog.Builder builder = null;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,22 +56,23 @@ public class AccEditActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         user = mAuth.getCurrentUser();
         Bundle extras = getIntent().getExtras();
+        assert extras != null;
         byte[] byteArray = extras.getByteArray("Picture");
         String nameIn=extras.getString("Name");
 
-        veri =(Button) findViewById(R.id.btnVerified);
+        veri = findViewById(R.id.btnVerified);
         if (user.isEmailVerified())
         veri.setText("Email Verified");
         else veri.setText("Email Not Verified (Click to Verify)");
 
         bmap = BitmapFactory.decodeByteArray(byteArray, 0, byteArray.length);
-        imageView = (ImageView) findViewById(R.id.imageView);
+        imageView = findViewById(R.id.imageView);
         imageView.setImageBitmap(bmap);
 
-        editText = (EditText) findViewById(R.id.editTextDisplayName);
+        editText = findViewById(R.id.editTextDisplayName);
         editText.setText(nameIn);
 
-        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+        progressBar = findViewById(R.id.progressbar);
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,6 +95,7 @@ public class AccEditActivity extends AppCompatActivity {
             FirebaseAuth auth = FirebaseAuth.getInstance();
             String emailAddress = user.getEmail();
 
+            assert emailAddress != null;
             auth.sendPasswordResetEmail(emailAddress)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
@@ -114,8 +113,8 @@ public class AccEditActivity extends AppCompatActivity {
 
     public void accDelete(){
 
-        alert = null;
-        builder = new AlertDialog.Builder(AccEditActivity.this);
+        AlertDialog alert = null;
+        AlertDialog.Builder builder = new AlertDialog.Builder(AccEditActivity.this);
         alert = builder.setIcon(R.mipmap.ic_launcher)
                 .setTitle("WARNING：")
                 .setMessage("YOU ARE ABOUT TO DELETE THIS ACCOUNT!\nARE YOU SURE TO PROCEED!")
@@ -296,10 +295,10 @@ public class AccEditActivity extends AppCompatActivity {
         //设置对话框布局
         dialog.setView(dialogView);
         dialog.show();
-        final EditText etName = (EditText) dialogView.findViewById(R.id.et_name);
-        final EditText etPwd = (EditText) dialogView.findViewById(R.id.et_pwd);
-        Button btnLogin = (Button) dialogView.findViewById(R.id.btn_login);
-        Button btnCancel = (Button) dialogView.findViewById(R.id.btn_cancel);
+        final EditText etName = dialogView.findViewById(R.id.et_name);
+        final EditText etPwd = dialogView.findViewById(R.id.et_pwd);
+        Button btnLogin = dialogView.findViewById(R.id.btn_login);
+        Button btnCancel = dialogView.findViewById(R.id.btn_cancel);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -22,6 +22,7 @@ import kotlinx.android.synthetic.main.activity_bot_view.*
 import kotlinx.android.synthetic.main.card.view.*
 import java.io.*
 
+@SuppressLint("StaticFieldLeak")
 //use to close activity from checkout
 var botView:BotView? = null
 
@@ -47,12 +48,12 @@ class BotView : AppCompatActivity() {
     private var buysList: java.util.ArrayList<String>? = null
 
     //Support data type
-    var buyUnit = intArrayOf(0, 0, 0, 0, 0)
-    var boughtUnit = intArrayOf(0, 0, 0, 0, 0)
+    private var buyUnit = intArrayOf(0, 0, 0, 0, 0)
+    private var boughtUnit = intArrayOf(0, 0, 0, 0, 0)
     private val buyName = arrayOf("Apple", "Pear", "Orange", "Grape", "Watermelon")
-    internal var ta: TextAnalysis?=null
+    private var ta: TextAnalysis?=null
 
-    var adapter:GoodsAdapter?=null
+    private var adapter:GoodsAdapter?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bot_view)
@@ -129,7 +130,7 @@ class BotView : AppCompatActivity() {
                     tvBarcode.post{
                         codeString=barcodes.valueAt(0).displayValue
                         tvBarcode.text= codeString
-                        for(j in 0..nameArray.size-1) {
+                        for(j in 0 until nameArray.size) {
                             if (codeString== nameArray[j]) {
                                 if(listOfGoods.size==0) {
                                     add(j)
@@ -234,6 +235,7 @@ class BotView : AppCompatActivity() {
             this.listOfGoods=listOfGoods
             this.context=context
         }
+        @SuppressLint("InflateParams", "ViewHolder")
         override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
             val goods =listOfGoods[p0]
             var inflater=context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
@@ -241,7 +243,7 @@ class BotView : AppCompatActivity() {
             myView.tvName.text=goods.name!!
             myView.tvDes.text=goods.des!!
             myView.ivName.setImageResource(goods.image!!)
-            myView.tvNumber.text=goods.number.toString()!!
+            myView.tvNumber.text= goods.number.toString()
             myView.setOnClickListener{
                 if(btndelete) {
                     delete(p0)
@@ -304,15 +306,15 @@ class BotView : AppCompatActivity() {
                     nTemp += sb[i]
                     if (i == sb.length - 1) {
                         ta = TextAnalysis(tempList(nTemp))
-                        if (ta!!.getValid()!!) {
-                            buyUnit[ta!!.getNamePosition()] = buyUnit[ta!!.getNamePosition()] + ta!!.getQuantity()
+                        if (ta!!.valid!!) {
+                            buyUnit[ta!!.namePosition] = buyUnit[ta!!.namePosition] + ta!!.quantity
                         }
                         nTemp = ""
                     }
                 } else {
                     ta = TextAnalysis(tempList(nTemp))
-                    if (ta!!.getValid()!!) {
-                        buyUnit[ta!!.getNamePosition()] = buyUnit[ta!!.getNamePosition()] + ta!!.getQuantity()
+                    if (ta!!.valid!!) {
+                        buyUnit[ta!!.namePosition] = buyUnit[ta!!.namePosition] + ta!!.quantity
                     }
                     nTemp = ""
                 }

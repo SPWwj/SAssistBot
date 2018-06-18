@@ -53,7 +53,7 @@ class CheckOut : AppCompatActivity() {
         for( i in 0..buyUnit!!.size-1 ) {
 
             if(buyUnit!![i]>0) {
-                var s: String = buyName!![i].toString() +
+                val s: String = buyName!![i].toString() +
                         " " + buyUnit!![i].toString()
                 itemsAdapter!!.add(s)
             }
