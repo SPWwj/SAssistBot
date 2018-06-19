@@ -30,14 +30,14 @@
             android:value="barcode" />
         //Barcode End
         <activity android:name=".BotView" />
-        <activity android:name=".todoist"/>
-        <activity android:name=".CheckOut"/>
-        <activity android:name=".GoodsInfo"/>
+        <activity android:name=".todoist" />
+        <activity android:name=".CheckOut" />
+        <activity android:name=".GoodsInfo" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".AccEditActivity"/>
-        <activity android:name=".AccMenu"/>
-
+        <activity android:name=".AccEditActivity" />
+        <activity android:name=".AccMenu" />
+        <activity android:name=".SmartThings"></activity>
     </application>
 
 </manifest>

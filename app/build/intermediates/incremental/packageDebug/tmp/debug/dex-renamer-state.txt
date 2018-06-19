@@ -1,4 +1,4 @@
-#Sun Jun 17 22:17:41 SGT 2018
+#Tue Jun 19 23:45:12 SGT 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/45
-base.2=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/48
-base.1=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/46
-base.0=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/47
+base.3=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/64
+base.2=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/62
+base.1=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/65
+base.0=/Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/build/intermediates/transforms/dexMerger/debug/63

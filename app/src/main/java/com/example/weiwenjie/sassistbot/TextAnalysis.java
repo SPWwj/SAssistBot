@@ -38,7 +38,6 @@ public class TextAnalysis {
 	}
 
 	public TextAnalysis(List<String> list) {
-		// TODO Auto-generated constructor stub
 		this.list=list;
 		if(Check_itemInDatabase()&&Check_Quantity()) {
 			valid=true;

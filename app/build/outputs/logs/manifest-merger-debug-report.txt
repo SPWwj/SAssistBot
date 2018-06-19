@@ -186,15 +186,15 @@ ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/Androi
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:32:19-42
 activity#com.example.weiwenjie.sassistbot.todoist
-ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:33:9-44
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:33:9-45
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:33:19-42
 activity#com.example.weiwenjie.sassistbot.CheckOut
-ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:34:9-45
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:34:9-46
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:34:19-43
 activity#com.example.weiwenjie.sassistbot.GoodsInfo
-ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:35:9-46
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:35:9-47
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:35:19-44
 activity#com.example.weiwenjie.sassistbot.ProfileActivity
@@ -206,13 +206,17 @@ ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/Androi
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:37:19-49
 activity#com.example.weiwenjie.sassistbot.AccEditActivity
-ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:38:9-52
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:38:9-53
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:38:19-50
 activity#com.example.weiwenjie.sassistbot.AccMenu
-ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:39:9-44
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:39:9-45
 	android:name
 		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:39:19-42
+activity#com.example.weiwenjie.sassistbot.SmartThings
+ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:40:9-58
+	android:name
+		ADDED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml:40:19-46
 uses-sdk
 INJECTED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/WeiWenJie/Documents/AndroidProj/SAssistBot/app/src/main/AndroidManifest.xml

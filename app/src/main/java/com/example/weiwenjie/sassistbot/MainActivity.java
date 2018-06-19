@@ -46,5 +46,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, AccMenu.class);
         startActivity(intent);
     }
+    public void goSmartThings(View view){
+        if(mAuth.getCurrentUser() != null) {
+            Intent intent = new Intent(MainActivity.this, SmartThings.class);
+            startActivity(intent);
+        }
+        else Toast.makeText(MainActivity.this,"Please Sign in first!",Toast.LENGTH_SHORT).show();
+    }
 }
 
