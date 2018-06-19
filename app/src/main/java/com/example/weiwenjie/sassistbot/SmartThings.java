@@ -1,7 +1,6 @@
 package com.example.weiwenjie.sassistbot;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,13 +10,15 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import static com.example.weiwenjie.sassistbot.R.drawable.off;
+import static com.example.weiwenjie.sassistbot.R.drawable.on;
 
 public class SmartThings extends AppCompatActivity {
     FirebaseAuth mAuth;
@@ -46,12 +47,12 @@ public class SmartThings extends AppCompatActivity {
                 Integer value = dataSnapshot.getValue(Integer.class);
 
                 if(value==0){
-                    btnSwitch.setBackground(getDrawable(R.drawable.off));
+                    btnSwitch.setBackground(getDrawable(off));
                     lightOn=false;
                     ivLight.setImageDrawable(getDrawable(R.drawable.lightbulboff));
                 }
                 else if (value==1){
-                    btnSwitch.setBackground(getDrawable(R.drawable.on));
+                    btnSwitch.setBackground(getDrawable(on));
                     lightOn=true;
                     ivLight.setImageDrawable(getDrawable(R.drawable.lightbulb));
                 }
